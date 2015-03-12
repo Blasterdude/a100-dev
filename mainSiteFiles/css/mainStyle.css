@@ -9,7 +9,7 @@ h1 {
 	font-family: "calibri" ; 
 	font-style: "normal"; 
 	font-weight: 400; 
-	font-size: 60px;
+	font-size: 50px;
 	text-align: center;
 }
 h1.bold {
@@ -45,7 +45,7 @@ p.sub {
 	font-family: "calibri" ; 
 	font-style: italic; 
 	font-weight: 400; 
-	font-size: 24px; 
+	font-size: 20px; 
 	text-align: center;
 	padding-bottom: 0px;
 	padding-top: 0px;
@@ -79,6 +79,20 @@ img.cover {
 
 img.tiny{
 	height: 150px;
+}
+
+a { color: #000000; text-decoration: none; border-bottom: 1px solid #000000; }
+
+.game{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    -webkit-column-rule: 2px outset #000000; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px outset #000000; /* Firefox */
+    column-rule: 2px outset #000000;
 }
 
 
